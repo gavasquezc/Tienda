@@ -1,0 +1,147 @@
+
+.card {
+  display: inline-block;
+  text-align: left;
+  word-spacing: normal;
+  vertical-align: top;
+
+  overflow: hidden;
+  margin-bottom: 1rem;
+  transition: .4s;
+}
+
+.card:hover .articulo {
+  transform: scale(2);
+  transform-origin: center;
+}
+
+
+.agregar-carrito:hover{ 
+  background:#fff;
+  color: #5499c7 ;
+  cursor:pointer;
+
+}
+
+
+
+
+body {
+  background-color: #fff6f6;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.borrar-curso {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+#encabezado {
+  margin: 30px 0;
+}
+
+.submenu {
+  position: relative;
+}
+.submenu #carrito {
+  display: none;
+}
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+
+
+
+#lista-cursos .row {
+  margin-bottom: 20px;
+}
+
+.agregar-carrito {
+  margin: 10px 0;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  background: white;
+}
+
+@media (min-width: 550px) {
+  .card {
+    text-align: left;
+  }
+}
+.info-card {
+  padding: 10px 20px;
+}
+.info-card p {
+  margin-bottom: 5px;
+}
+
+.card h4 {
+  margin-bottom: 5px;
+}
+
+.info-card .precio {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.info-card .precio span {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+
+
+
+.button {
+  background:  #85c1e9  ;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 25px 0 15px 0;
+
+  .button:hover {
+    background: lighten( #a9cce3 , 3%);
+  }
+}
